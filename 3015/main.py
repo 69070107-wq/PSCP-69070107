@@ -1,3 +1,4 @@
+"""nnn"""
 x = int(input())
 y = int(input())
 a = int(input())
@@ -8,4 +9,3 @@ z = z % x
 
 sale = ((i * y) + z) * a
 print(sale)
-
