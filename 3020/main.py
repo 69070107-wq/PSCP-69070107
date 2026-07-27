@@ -4,13 +4,12 @@ b = int(input())
 c = int(input())
 d = int(input())
 x = 0
-y = 0
-if b == 0 :
+if not b:
     print(a*d)
 else:
     for i in range(d):
-        if i % b == 0 :
-            if i == 0 :
+        if not i % b :
+            if not i :
                 x +=a
             else:
                 x += c
