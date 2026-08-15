@@ -1,3 +1,4 @@
+"""nnnnn"""
 number = int(input())
 num2 = int(input())
 winner = input()

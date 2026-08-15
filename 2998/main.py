@@ -1,3 +1,4 @@
+"""nnnnnnnnn"""
 import math
 
 q1 = float(input())
