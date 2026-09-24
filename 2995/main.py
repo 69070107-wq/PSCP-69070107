@@ -1,9 +1,23 @@
-number = input()
+"""nnnnnnnnnn"""
+x = input().lower()
+y = x.lower()
 
-if len(number) == 8 :
-    if number[2] == '1' and number[3] == '6' :
-        print("yes")
-    else:
-        print("no")
+if "buu" in x:
+    n = 0
+    for i in range(len(x)):
+        if x[i] == "b":
+            j = i + 1
+            count = 0
+            while j < len(x) and x[j] == "u":
+                count += 1
+                j += 1
+            if count > n:
+                n = count
+    print("Yes", n)
+
+elif "b" in x:
+    n = x.index("b")
+    print(x[:n + 1] + "U" * (len(x) - n - 1))
+
 else:
-    print("no")
+    print(("BUU" * len(x))[:len(x)])
